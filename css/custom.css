@@ -1,0 +1,88 @@
+body {
+    background-image: url('../img/bgr1.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;  
+    font-family: Helvetica, Arial;
+  	font-size: 14px;
+  	color: #CECECE;
+}
+div.sector{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+#control_section{
+	margin: 20px auto;
+	width: 200px;
+}
+#start_button{
+	width: 200px;
+	height: 32px;
+	font-weight: bold;
+	border: 0px;
+	border-radius: 5px;
+	background-color: #070a13;
+	color: #353944;
+	box-shadow: 0px 0px 5px #cecece;	
+}
+#start_button:hover{color: #939aaa; background-color: #090712;	box-shadow: 0px 0px 10px #FFF;	}
+div.container{
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+}
+div.main_container{
+	
+}
+
+div#sector_1{
+	background-color: red;
+	border-top-left-radius: 200px;	
+}
+div#sector_2{
+	background-color: blue;
+	border-top-right-radius: 200px;	
+}
+div#sector_3{
+	background-color: green;
+	border-bottom-left-radius: 200px;
+}
+div#sector_4{
+	background-color: purple;
+	border-bottom-right-radius: 200px;
+}
+
+#errorMesage{
+    position: absolute;
+    left: 0px;
+    top: 15px;
+    color: #FFF;
+}
+#gameMesages{
+	position: absolute;
+	z-index: 9;
+	left: 100px;
+	top: 150px;
+}
+#hiScore, 
+#currentLevel{
+	height: 32px;
+	color: #ABABAB;	
+}
+select{
+	background: transparent;
+	color: #FFF;
+	appearance:none;
+    cursor:pointer;
+    border:none;
+    outline:none;
+}
+option{color: #898989; background-color: #0e1118;}
+
+
+.trophy{
+    background-image: url('../img/trophy-icon.png');	
+    background-repeat: repeat-x;
+    height: 25px;
+    width: 0px;
+}

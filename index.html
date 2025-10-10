@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariel Raskin task 1</title>
+    <link href="css/custom.css" rel="stylesheet">
+	<script src="js/lib/jquery-1.11.2.min.js"></script>
+	<script src="js/custom.js"></script>		
+</head>
+<body>
+<div id="errorMesage"></div>
+<div id="gameMesages">
+	<div class="trophy"></div>
+	<div id="hiScore"></div>
+	<div id="currentLevel"></div>
+	<div>
+		Game speed:
+		<select id="gameSpeed">
+		  <option value="500">Fast</option>
+		  <option value="1000">Normal</option>
+		  <option value="2000">Slow</option>
+		</select>		
+	</div>
+</div>
+<div class="main_container">
+	<div class="container" id="gameContainer">
+		<div class="sector" id="sector_1"></div>
+		<div class="sector" id="sector_2"></div>
+		<div class="sector" id="sector_3"></div>
+		<div class="sector" id="sector_4"></div>
+	</div>
+
+	<div id="control_section">
+		<button id="start_button"> Click to Start </button>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+
+   		initGame();
+
+});
+</script>
+</body>
+</html>
