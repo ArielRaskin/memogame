@@ -11,6 +11,12 @@ div.sector{
 	height: 200px;
 	float: left;
 }
+div.description{
+	width: 400px;
+	height: 200px;
+	margin: auto;
+	padding-top: 15px;
+}
 #control_section{
 	margin: 20px auto;
 	width: 200px;
