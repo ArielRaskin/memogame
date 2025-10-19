@@ -17,6 +17,7 @@ function initGame(){
 		resetGame();
 		setTimeout(function(){playGame();}, 1000);
 		$("#start_button").hide('slow');
+		$(".description").hide();
 		gameMessages.gameSpeed = parseInt($("#gameSpeed").val());
 		gameMessages.blinkSpeed =  parseInt($("#gameSpeed").val()) / 3;		
 	});
@@ -119,6 +120,7 @@ function showErrorMessage(errorMessage, timeOutValue){
 			.show();
 		setTimeout(function(){$("#errorMesage").hide('slow');}, timeOutValue);
 		$("#start_button").show('slow');
+		$(".description").show();
 };
 
 function showGameMessage(){
